@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "perguntas sobre a degradação do Meio ambiente",
+        enunciado: "Qual é a principal causa da degradação do solo?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Desmatamento é o uso excessivo de fertilizantes químicos."
+                afirmacao: "O uso de fertilizantes químicos podem contaminar a água, trazer a perda da biodiversidade e a emissão de gases do efeito estufa."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Poluição do ar e mudanças climáticas",
+                afirmacao: "A poluiçao pode ser causada por fontes naturais e por ações humanas como: queimadas,industrialização, entre outros."
             }
         ]
     },
